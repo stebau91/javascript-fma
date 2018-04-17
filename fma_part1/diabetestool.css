@@ -1,0 +1,95 @@
+
+/* diabetestool css */
+body {
+  font-family: tahoma;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 { text-align: center; }
+
+table { display: block; }
+
+td {
+  padding-bottom: 2rem;
+  text-align: right;
+  width: 10%;
+}
+
+#btn_calculate { margin-left: 45px; }
+
+#form_div {
+  border: 1px solid #000;
+  margin-left: 10em;
+  margin-right: 10em;
+  padding: 2em;
+}
+
+#form_radio {
+  border: 1px solid #000;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+#p_result {
+  border: 1px solid #000;
+  height: 8em;
+  margin-bottom: 0;
+  margin-top: 2em;
+  padding: 10px;
+}
+
+/* contactform css*/
+
+input#fname, input#lname, input#han,
+input#email, input#telnum { color: #000; }
+
+.info {
+  background: url('questionmark.png') no-repeat;
+  display: inline;
+  margin-left: 200px;
+  padding: 14px;
+  position: absolute;
+}
+
+.tooltip {
+  background: url('tooltipbox.png') no-repeat;
+  display: none;
+  margin-left: -6px;
+  margin-top: -137px;
+  padding: 18px;
+  position: absolute;
+  width: 125px;
+  font: 14px Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.error {
+  display: inline !important;
+  color: red;
+  font-size: 10px;
+  margin-left: 2em !important;
+  font-style: arial;
+}
+
+#btn_submit { margin-left: 22em; }
+
+#form_div {
+  border: 1px solid #000;
+  margin-left: 10em;
+  margin-right: 10em;
+  padding: 2em;
+}
+
+#fname,#lname, #title,
+#han, #email, #telnum { 
+  margin: 1em 0 1em 1em; 
+}
+
+#fieldset label {
+  display: inline-block;
+  margin-left: 17em;
+  text-align: center;
+  width: 220px;
+}
+

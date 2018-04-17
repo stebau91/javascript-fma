@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript - FMA 2017 BBK - Bau Stefano sbau01</title>
+    <link rel="stylesheet" href="diabetestool.css">
+    <script src="diabetestool.js"></script>
+  </head>
+  <body>
+    <h1>Zedland Health Authority</h1>
+    <h2>Diabetes Risk Assessment Tool</h2>
+    <div id="form_div">
+      <form id="form_radio" name="form_radio">
+        <table id="table_radio">
+          <tr>
+            <td>How old are you?</td>
+            <td>
+              <label for="rad1row1">1-25</label>
+              <input type="radio" name="age" id="rad1row1" value="0">
+            </td>
+            <td>
+              <label for="rad2row1">26-40</label>
+              <input type="radio" name="age" id="rad2row1" value="5">
+            </td>
+            <td>
+              <label for="rad3row1">41-60</label>
+              <input type="radio" name="age" id="rad3row1" value="8">
+            </td>
+            <td>
+              <label for="rad4row1">60+</label>
+              <input type="radio" name="age" id="rad4row1" value="10">
+            </td>
+          </tr>
+          <tr>
+            <td>What is your BMI?</td>
+            <td>
+              <label for="rad1row2">0-25</label>
+              <input type="radio" name="BMI" id="rad1row2" value="0">
+            </td>
+            <td>
+              <label for="rad2row2">26-30</label>
+              <input type="radio" name="BMI" id="rad2row2" value="0">
+            </td>
+            <td>
+              <label for="rad3row2">31-35</label>
+              <input type="radio" name="BMI" id="rad3row2" value="9">
+            </td>
+            <td>
+              <label for="rad4row2">35+</label>
+              <input type="radio" name="BMI" id="rad4row2" value="10">
+            </td>
+          </tr>
+          <tr>
+            <td>Does anybody in your family have diabetes?</td>
+            <td>
+              <label for="rad1row3">No</label>
+              <input type="radio" name="family" id="rad1row3" value="0">
+            </td>
+            <td>
+              <label for="rad2row3">Grandparent</label>
+              <input type="radio" name="family" id="rad2row3" value="7">
+            </td>
+            <td>
+              <label for="rad3row3">Sibiling</label>
+              <input type="radio" name="family" id="rad3row3" value="15">
+            </td>
+            <td>
+              <label for="rad4row3">Parent</label>
+              <input type="radio" name="family" id="rad4row3" value="15">
+            </td>
+          </tr>
+          <tr>
+            <td>How would you describe your diet?</td>
+            <td>
+              <label for="rad1row4">Low sugar</label>
+              <input type="radio" name="diet" id="rad1row4" value="0">
+            </td>
+            <td>
+              <label for="rad2row4">Normal sugar</label>
+              <input type="radio" name="diet" id="rad2row4" value="0">
+            </td>
+            <td>
+              <label for="rad3row4">Quite high sugar</label>
+              <input type="radio" name="diet" id="rad3row4" value="7">
+            </td>
+            <td>
+              <label for="rad4row4">High sugar</label>
+              <input type="radio" name="diet" id="rad4row4" value="10">
+            </td>
+          </tr>
+        </table>
+        <br>
+        <button type="button" id="btn_calculate">Calculate</button>
+      </form>
+      <p id="p_result"></p>
+    </div>
+  </body>
+</html>

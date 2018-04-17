@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript - FMA 2017 BBK</title>
+    <link rel="stylesheet" href="diabetestool.css">
+    <script src="contactform.js"></script>
+  </head>
+  <body>
+    <h1>Zedland Health Authority</h1>
+    <h2>Contact Form</h2>
+      <form id="form_id">
+        <fieldset id="fieldset">
+          <section>
+            <label>First Name:</label>
+            <input type="text" id="fname">
+            <span id="fnameValidationError" class="Error"></span>
+          </section>
+          <section>
+            <label>Last Name:</label>
+            <input type="text" id="lname">
+            <span id="lnameValidationError" class="Error"></span>
+          </section>
+          <section>
+            <label>Title:</label>
+            <select id="title">
+              <option value="mr">Mr.</option>
+              <option value="ms">Ms.</option>
+              <option value="mrs">Mrs.</option>
+              <option value="miss">Miss</option>
+              <option value="master">Master</option>
+            </select>
+			<span id="titleError" class="error">* You must select a title.</span>
+          </section>
+          <section>
+            <div class="info" id="info_id"></div>
+            <div class="tooltip" id="tooltip_id">
+              <p id="text_tip"></p>
+            </div>
+            <label>Health Authority Number:</label>
+            <input type="text" id="han">
+            <span id="hanValidationError" class="Error"></span>
+          </section>
+          <section>
+            <label>Email:</label>
+            <input type="text" id="email">
+            <span id="emailValidationError" class="Error"></span>
+          </section>
+          <section>
+            <label>Telephone Number:</label>
+            <input type="text" id="telnum">
+            <span id="telnumValidationError" class="Error"></span>
+          </section>
+        </fieldset>
+        <br>
+        <button type="submit" id="btn_submit">Submit</button>
+      </form>
+  </body>
+</html>
